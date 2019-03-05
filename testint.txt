@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "this is runnuing in a build step"
+echo "this is param $PASSED"
+NUM=(($FIRSTNUMBER + $SECONDNUMBER))
+echo "$NUM"
